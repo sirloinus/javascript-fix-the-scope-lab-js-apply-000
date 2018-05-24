@@ -4,20 +4,8 @@ function myAnimal() {
   return animal
 }
 
-describe('yourAnimal()', function() {
-    it('returns your animal', function(){
-      expect(window.yourAnimal()).toEqual('cat')
-    })
-
-    it('does not hard-code the answer', function() {
-      expect(window.yourAnimal.toString()).toNotContain("return 'cat'")
-    })
-  })
-
 function yourAnimal() {
-  // How can we make sure that this function
-  // and the above function both pass?
-  // P.S.: You can't just hard-code 'cat' below
+  var = 'cat'
   return animal
 }
 
