@@ -33,12 +33,6 @@ describe('funkyFunction()', function() {
     })
   })
 
-function funkyFunction() {
-  return function() {
-    
-  }
-}
-
 var funkyFunction = function() {
   return function() {
     return "FUNKY!"
